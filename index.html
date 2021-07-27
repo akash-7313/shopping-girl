@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your fashion-our priority</title>
+
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/6bf25f8513.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind css -->
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .icon {
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        a {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            margin: 10px;
+            font-size: 1em;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        a:nth-child(1) {
+            color: blue;
+            transition: background-color 2s, color 1s;
+        }
+    
+        a:nth-child(2) {
+            color: red;
+            transition: background-color 2s, color 1s;
+        }
+    
+        a:nth-child(3) {
+            color: blueviolet;
+            transition: background-color 2s, color 1s;
+        }
+    
+        a:nth-child(4) {
+            color: palevioletred;
+            transition: background-color 2s, color 1s;
+        }
+    
+        a:nth-child(5) {
+            color: navy;
+            transition: background-color 2s, color 1s;
+        }
+    
+        a:nth-child(1):hover {
+            color: white;
+            background-color: blue;
+        }
+    
+        a:nth-child(2):hover {
+            color: white;
+            background-color: red;
+        }
+    
+        a:nth-child(3):hover {
+            color: white;
+            background-color: blueviolet;
+        }
+    
+        a:nth-child(4):hover {
+            color: white;
+            background-color: palevioletred;
+        }
+    
+        a:nth-child(5):hover {
+            color: white;
+            background-color: navy;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header class="bg-yellow-100">
+
+        <section class="md:flex justify-around items-center py-12 px-4">
+            <div class="space-y-5">
+                <h1 class="text-6xl font-bold uppercase">
+                    <span class="text-yellow-400">be the penguins</span>
+                    <br>
+                    <span class="text-red-800">of winter</span>
+                </h1>
+                <p class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aut rem sed? Odit, impedit dolores?</p>
+                <button type="button" class="uppercase py-2.5 px-12 bg-yellow-400 rounded-full text-white bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg> buy now</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- women section -->
+        <section class="pt-20 px-20">
+            <h2 class="text-red-800 uppercase font-bold text-3xl">woman's jacket</h2>
+            <div class="lg:grid grid-cols-3 gap-7">
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/jacket-1.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Yellow Coat Jacket</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="lg:flex justify-between">
+                        <h3 class="text-3xl font-bold text-yellow-600 mb-2">$199</h3>
+                        <button type="button"
+                            class="uppercase py-1 px-7 rounded-full text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:from-pink-500 hover:to-yellow-500 ..."">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> buy now
+                        </button>
+                    </div>
+
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/jacket-2.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Ladies Jacket</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="lg:flex justify-between">
+                        <h3 class="text-3xl font-bold text-yellow-600 mb-2">$199</h3>
+                        <button type="button"
+                            class="uppercase py-1 px-7 rounded-full text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:from-pink-500 hover:to-yellow-500 ..."">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> buy now
+                        </button>
+                    </div>
+
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/jacket-3.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Woman Leather Jacket</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="lg:flex justify-between">
+                        <h3 class="text-3xl font-bold text-yellow-600 mb-2">$199</h3>
+                        <button type="button"
+                            class="uppercase py-1 px-7 rounded-full text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:from-pink-500 hover:to-yellow-500 ..."">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> buy now
+                        </button>
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+
+
+        <!-- men section -->
+        <section class="pt-20 px-20">
+            <h2 class="text-red-800 uppercase font-bold text-3xl">man's jacket</h2>
+            <div class="lg:grid grid-cols-3 gap-7">
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/jacket-4.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Snowboard Jacket Mens</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="lg:flex justify-between">
+                        <h3 class="text-3xl font-bold text-yellow-600 mb-2">$199</h3>
+                        <button type="button"
+                            class="uppercase py-1 px-7 rounded-full text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:from-pink-500 hover:to-yellow-500 ..."">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> buy now
+                        </button>
+                    </div>
+
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/jacket-5.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Man Leather Jackets</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="lg:flex justify-between">
+                        <h3 class="text-3xl font-bold text-yellow-600 mb-2">$399</h3>
+                        <button type="button"
+                            class="uppercase py-1 px-7 rounded-full text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:from-pink-500 hover:to-yellow-500 ..."">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> buy now
+                        </button>
+                    </div>
+
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/jacket-6.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Man Casual Jackets</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="lg:flex justify-between">
+                        <h3 class="text-3xl font-bold text-yellow-600 mb-2">$299</h3>
+                        <button type="button"
+                            class="uppercase py-1 px-7 rounded-full text-white bg-gradient-to-r from-yellow-400 to-red-500 hover:from-pink-500 hover:to-yellow-500 ..."">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> buy now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- party section -->
+        <section class="pt-20 px-20">
+            <h2 class="text-red-800 uppercase font-bold text-3xl">our party collection</h2>
+            <div class="lg:grid grid-cols-4 gap-7">
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto rounded-3xl" src="images/party-1.jpg" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Grey Lehenga</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $159</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/party-2.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Navy Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $129</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/party-3.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Dark Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $179</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto rounded-3xl" src="images/party-4.jpg" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Beautiful Saree</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $199</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- special section -->
+        <section class="pt-20 px-20">
+            <h2 class="text-red-800 uppercase font-bold text-3xl">our special collection</h2>
+            <div class="lg:grid grid-cols-4 gap-7">
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-1.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Grey Lehenga</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $159</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-2.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Navy Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $129</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-3.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Dark Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $179</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-4.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Beautiful Saree</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $199</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-5.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Dark Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $179</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-6.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Beautiful Saree</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $199</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-7.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Dark Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $179</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto" src="images/s-8.png" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Beautiful Saree</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $199</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--wedding section -->
+        <section class="pt-20 px-20">
+            <h2 class="text-red-800 uppercase font-bold text-3xl">our wedding collection</h2>
+            <div class="lg:grid grid-cols-4 gap-7">
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto rounded-3xl" src="images/wed-1.jpg" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Grey Lehenga</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $159</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto rounded-3xl" src="images/wed-2.jpg" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Navy Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $129</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto rounded-3xl" src="images/wed-3.jpg" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Dark Blue Frok</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $179</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded-3xl space-y-5 p-5 bg-gray-100 my-10">
+                    <div class="bg-gray-300 rounded-3xl p-5">
+                        <img class="h-64 py-2 mx-auto rounded-3xl" src="images/wed-4.jpg" alt="">
+                    </div>
+                    <h4 class="text-3xl font-bold text-blue-900">Beautiful Saree</h4>
+                    <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellat?</p>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Price $199</h3>
+                        <button type="button"
+                            class="py-1.5 px-7 rounded-full text-white bg-blue-900"">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg> Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features section -->
+        <section class="py-16 mx-20 lg:grid grid-cols-2">
+            <h2 class="text-red-800 uppercase font-bold text-3xl">our features</h2>
+            <div class="flex justify-around items-center shadow-xl mb-8 p-5">
+                <div class="mr-3">
+                    <img class="h-20" src="icons/image 12.png" alt="">
+                </div>
+                <div>
+                    <h4 class="font-bold text-xl">Find the Perfect Fit</h4>
+                    <p class="text-sm text-gray-400">Everybody is different, which is why we
+                    offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="row-span-3">
+                <img class="p-8" src="images/shopping.png" alt="">
+            </div>
+            <div class="flex justify-around items-center shadow-xl mb-5">
+                <div class="mr-3">
+                    <img class="h-20" src="icons/image 13.png" alt="">
+                </div>
+                <div>
+                    <h4 class="font-bold text-xl">Free Exchanges</h4>
+                    <p class="text-sm text-gray-400">One of the many reasons you can shop
+                    with peace of mind.</p>
+                </div>
+            </div>
+            <div class="flex justify-around items-center shadow-xl">
+                <div class="mr-3">
+                    <img class="h-20" src="icons/image 14.png" alt="">
+                </div>
+                <div>
+                    <h4 class="font-bold text-xl">Contact Our Seller</h4>
+                    <p class="text-sm text-gray-400">They are here to help you. That's quite
+                    literally what we pay them for.</p>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+
+
+    <!-- footer section -->
+
+    <footer class="bg-gray-800 pb-16">
+        <div class="icon">
+            <a target="_blank" href="https://www.youtube.com/watch?v=D2vUDXFdlzk"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=VH-kcDo4zz8"><i class="fab fa-youtube"></i></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=rq0BRilAqqY"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=D7mg8zkmiy8&t=157s"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=vLqXOT4gpI0"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="capitalize font-bold text-2xl text-xl text-center"><span class="text-gray-500"> &#169; copyright 2021 -</span> <span class="text-yellow-500">linc glyser</span></p>
+    </footer>
+
+
+</body>
+</html>
